@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte</h1>
+        <p>Equilíbrio entre produção e meio ambiente</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Promovemos práticas agrícolas sustentáveis, garantindo produtividade e preservação ambiental.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos Sustentáveis</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Agrofloresta</h3>
+                <p>Integração de árvores com culturas agrícolas, aumentando biodiversidade e solo fértil.</p>
+            </div>
+            <div class="card">
+                <h3>Energia Solar</h3>
+                <p>Uso de painéis solares em fazendas para reduzir impacto ambiental.</p>
+            </div>
+            <div class="card">
+                <h3>Gestão de Água</h3>
+                <p>Técnicas de irrigação eficientes para economia de água e maior produtividade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="statusMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
